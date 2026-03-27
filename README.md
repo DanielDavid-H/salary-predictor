@@ -43,6 +43,7 @@ Run the main script to start the training process.
 python house_price_predictor.py
 
 4. Training & Prediction
+
 Step A: The model will train for 10,000 iterations using backpropagation.
 
 Step B: A Loss Curve window will pop up. Close the window to proceed to the prediction phase.
