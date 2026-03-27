@@ -40,7 +40,7 @@ This project requires NumPy for matrix mathematics and Matplotlib for visualizin
 
 Run the main script to start the training process.
 
-python main.py
+python house_price_predictor.py
 
 4. Training & Prediction
 Step A: The model will train for 10,000 iterations using backpropagation.
