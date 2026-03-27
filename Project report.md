@@ -1,8 +1,8 @@
-\# **PROJECT REPORT**
+# **PROJECT REPORT**
 
 
 
-\# Introduction
+# Introduction
 
 
 
@@ -12,7 +12,7 @@ we also will like to show the robustness of deep neural networks by using a very
 
 
 
-\# Concepts being used
+# Concepts being used
 
 
 
@@ -22,21 +22,13 @@ For this project we use a input layer, 2 hidden layers and a output layer. We on
 
 The formula for leaky relu is:
 
-&#x20;              
+             
 
-&#x20;            f(x) = {x>0,x
+            f(x) = {x>0,x
+                   x<0,0.01*x}
 
-
-
-&#x20;                    x<0,0.01\*x}
-
-
-
-&#x20;            f'(x) = {x>0,1
-
-
-
-&#x20;                    x<0,0.01}
+            f'(x) = {x>0,1
+                    x<0,0.01}
 
 
 
@@ -44,7 +36,7 @@ Lastly we use a custom Adam optimiser to increase the learning rate if the weigh
 
 
 
-\#Working principle
+# Working principle
 
 
 
@@ -52,19 +44,19 @@ The input is a array of dimensions(8x2) and the output is a array of dimensions(
 
 
 
-\# Key observations
+# Key observations
 
 
 
 * From this project we can see that how powerful a deep MLP is. we can see that even with a very small dataset we were able to predict house prices with extremely high levels of accuracy 
 
-&#x20;
+
 
 * The custom Adam optimiser also played a hude role in the converging of the graph. 
 
-&#x20;
 
-&#x20;   You can see the graphs below:
+
+  You can see the graphs below:
 
 
 
@@ -72,7 +64,7 @@ The input is a array of dimensions(8x2) and the output is a array of dimensions(
 
 | :---: | :---: |
 
-| !\[Standard Loss](loss\_without\_adam.png) | !\[Adaptive Loss](loss\_with\_adam.png)
+| ![Standard Loss](loss_without_adam.png) | ![Adaptive Loss](loss_with_adam.png)
 
 
 
@@ -80,7 +72,7 @@ we can see that the optimiser helped the graph to converge musch faster and we c
 
 
 
-\# Implementation details
+# Implementation details
 
 
 
@@ -89,15 +81,15 @@ we can see that the optimiser helped the graph to converge musch faster and we c
 
 
 
-\# Conclusion 
+# Conclusion 
 
-&#x20;By this project we are able learn about deep MLPs and the math behind them and understanding how they work how work under the hood.
-
-
+By this project we are able learn about deep MLPs and the math behind them and understanding how they work how work under the hood.
 
 
 
-&#x20;
+
+
+
 
 
 
