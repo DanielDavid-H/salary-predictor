@@ -28,7 +28,7 @@ Open your terminal and run the following command to download the project:
 
 
 * git clone https://github.com/DanielDavid-H/house-price-predictor.git
-* cd house-price-predictor
+* cd house_price_predictor
 
 2. Install Dependencies
 This project requires NumPy for matrix mathematics and Matplotlib for visualizing the training loss.
