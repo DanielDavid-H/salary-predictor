@@ -72,7 +72,7 @@ The input is a array of dimensions(8x2) and the output is a array of dimensions(
 
 
 
-* Using of HE initialization to prevent the vanishing gradient problem which prevalent when we use leaky relu activation function .
+* Using of HE initialization to prevent the vanishing gradient problem which is prevalent when we use leaky relu activation function .
 * normalization of data - divided area by 2000 and no. bedrooms by 5.
 
 
