@@ -52,7 +52,7 @@ The input is a array of dimensions(8x2) and the output is a array of dimensions(
 
 
 
-* The custom Adam optimiser also played a hude role in the converging of the graph. 
+* The custom Adam optimiser also played a huge role in the converging of the graph. 
 
 
 
